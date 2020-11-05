@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "header-nav": "/components/header_nav"
+  }
+}

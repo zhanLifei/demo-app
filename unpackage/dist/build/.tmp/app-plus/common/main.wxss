@@ -1,0 +1,82 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+page{
+	width: 100%;
+	height: 100%;
+	/* background-color: #EFF3F6; */
+}
+.status_bar {
+                height: var(--status-bar-height);
+                width: 100%;
+                top: 0;
+                left: 0;
+                background: #F2F2F2;
+                position: fixed;
+}
+.content {
+                width: 100%;
+                height: 100%;
+                -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                padding-top:calc(102rpx + var(--status-bar-height));
+                overflow: auto;
+				background-color: #F4F4F4;
+}
+.header {
+                background: #2189FF;
+				height:calc(102rpx + var(--status-bar-height));
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 105;
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-pack: justify;
+				-webkit-justify-content: space-between;
+				    -ms-flex-pack: justify;
+				        justify-content: space-between;
+				-webkit-box-align: center;
+				-webkit-align-items: center;
+				    -ms-flex-align: center;
+				        align-items: center;
+				width: 100%;
+				background-color:transparent;
+				background: transparent;
+}
+.allcolor{
+			color: #2189FF;
+}
+image{
+			width: 100%;
+			height: 100%;
+}
+.left_{
+			margin-left: 40rpx;
+			width: 20%;
+}
+.right_{
+			
+			width: 20%;
+			text-align: center;
+}
+.center_title{
+			text-align: center;
+			width: 60%;
+}
+

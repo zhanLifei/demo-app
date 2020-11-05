@@ -1,0 +1,1 @@
+<view class="content"><headers vue-id="1" Htitle="{{Htitle}}" Hlicon="{{Hlicon}}" bind:__l="__l"></headers><view>{{''+desc+''}}</view></view>

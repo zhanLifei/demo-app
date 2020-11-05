@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "积分详细",
+  "usingComponents": {
+    "headers": "/components/header_nav"
+  }
+}

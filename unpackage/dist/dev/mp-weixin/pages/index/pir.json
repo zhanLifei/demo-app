@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "headers": "/components/header_nav",
+    "btncoms": "/components/btncom"
+  }
+}

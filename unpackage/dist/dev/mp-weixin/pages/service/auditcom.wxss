@@ -1,0 +1,106 @@
+
+.content{
+	padding:calc(224rpx + 25px) 24rpx 0;
+}
+.nav_box{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+	position: fixed;
+	left: 0;
+	top: calc(102rpx + 25px);
+	width: 100%;
+	background-color: #FFFFFF;
+	/* padding: 30upx 0; */
+	color: #333333;
+	font-size: 28rpx;
+}
+.nav_it{
+	border-bottom: 2rpx solid #FFFFFF;
+	padding: 30rpx 0;
+	width: 50%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	text-align: center;
+}
+.active{
+	border-bottom: 2rpx solid #2189FF;
+	color: #2189FF;
+}
+.com_box{
+	background-color: #FFFFFF;
+	margin:20rpx auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 40rpx 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-radius: 10rpx;
+}
+.left_top{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 28rpx;
+	padding-bottom: 10rpx;
+}
+.top_title{
+	color: #333333;
+	margin-right: 20rpx;
+}
+.top_num{
+	color: #007AFF;
+}
+.com_left{
+	width: 60%;
+}
+.left_bot{
+	color: #999999;
+	font-size: 22rpx;
+}
+.com_right{
+	width:40%;
+	font-size: 28rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.right_btn{
+	background-color: #fbb35a;
+	color: #FFFFFF;
+	text-align: center;
+	padding:10rpx 30rpx;
+	border-radius: 29rpx;
+}
+.right_btn2{
+	background-color: #007AFF;
+	color: #FFFFFF;
+	text-align: center;
+	padding:10rpx 30rpx;
+	border-radius: 29rpx;
+}
+

@@ -1,0 +1,106 @@
+
+.content {
+		padding: 450rpx 30rpx 0;
+		/* padding-left: 30upx;
+		padding-right: 30upx; */
+		background: transparent;
+}
+.back111{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color:#f1f3f4 ;
+	z-index: -5;
+}
+.top_background {
+		width: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1;
+}
+.nlevel_block{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		position: fixed;
+		top: 250rpx;
+		width: 92%;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		z-index: 2;
+		background-color: #FFFFFF;
+		padding: 50rpx 30rpx;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		border-radius: 10rpx;
+}
+.nlevel1{
+		width: 50%;
+}
+.nlevel2{
+		width: 50%;
+		color: #666666;
+		font-size: 24rpx;
+		text-align: center;
+}
+.nlevel2 text:nth-child(1){
+		margin-right: 10rpx;
+}
+.level_box{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		background-color: #FFFFFF;
+		padding: 50rpx  20rpx;
+		margin-top: 20rpx;
+		border-radius: 10rpx;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+}
+.level_top{
+		color: #333333;
+		font-size: 24rpx;
+}
+.level_icon{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		margin-right: 10rpx;
+}
+.level_icon image{
+		width: 76rpx;
+		height: 68rpx;
+}
+.level_left{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		width: 40%;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+}
+.level_right{
+		width: 60%;
+}
+

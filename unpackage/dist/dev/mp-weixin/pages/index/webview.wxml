@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['touchstart',[['hideDrawer',['$event']]]]]}}" class="content" bindtouchstart="__e"><headers vue-id="1" Hlicon="{{Hlicon}}" bind:__l="__l"></headers></view>

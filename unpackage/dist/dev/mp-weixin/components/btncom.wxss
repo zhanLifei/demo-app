@@ -1,0 +1,12 @@
+
+.bottom_btn{
+	color: #FFFFFF;
+	background-color: #0089E2;
+	font-size: 36rpx;
+	width: 60%;
+	text-align: center;
+	padding: 20rpx 70rpx;
+	border-radius: 44rpx;
+	margin: 30rpx auto 0;
+}
+

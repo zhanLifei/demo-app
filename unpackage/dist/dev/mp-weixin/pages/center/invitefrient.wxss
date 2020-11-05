@@ -1,0 +1,46 @@
+
+page{
+	background-color: transparent;
+}
+.content{
+	background-color: transparent;
+}
+.back_img{
+	width:100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.heaercode{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	background-color: transparent;
+	padding: 30rpx;
+	margin-top: 950rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.heimag{
+	width: 28%;
+}
+.heimag image{
+	width: 164rpx;
+	height: 158rpx;
+}
+.invite_text{
+	width: 52%;
+}
+.qcode_img{
+	width: 157rpx;
+	height: 162rpx;
+	padding: 10rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+

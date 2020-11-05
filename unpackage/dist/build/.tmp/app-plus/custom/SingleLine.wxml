@@ -1,0 +1,1 @@
+<view><view class="userphone"><view class="userphone_num"><text>请输入手机号码：</text></view><input type="text" data-event-opts="{{[['input',[['__set_model',['','msg','$event',[]]]]]]}}" value="{{msg}}" bindinput="__e"/></view></view>

@@ -1,0 +1,291 @@
+
+.content {
+	padding-left: 24rpx;
+	padding-right: 24rpx;
+	background-color: transparent;
+}
+.header {
+	background: transparent;
+}
+.header1 {
+	background: #2189FF;
+	height: calc(102rpx + var(--status-bar-height));
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 105;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	width: 100%;
+	/* background-color:transparent;
+	background: transparent; */
+}
+.left_ {
+	width: 36rpx;
+	height: 36rpx;
+}
+.center_title {
+	font-size: 36rpx;
+	color: #FFFFFF;
+	margin-right: 72rpx;
+	width: 80%;
+}
+page {
+	/* background-color: #EFF3F6; */
+}
+.top_back {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: -webkit-gradient(linear, left top, right top, from(#38B7F9), to(#1A81F1));
+	background: -o-linear-gradient(left, #38B7F9, #1A81F1);
+	background: linear-gradient(to right, #38B7F9, #1A81F1);
+	height: 364rpx;
+	width: 100%;
+	z-index: -1;
+}
+.top_back2 {
+	position: fixed;
+	top: 364rpx;
+	left: 0;
+	background: #EFF3F6;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+.top_notice {
+	color: #FFFFFF;
+	font-size: 26rpx;
+	line-height: 42rpx;
+	padding-top: 30rpx;
+}
+.input_box {
+	width: 100%;
+	background-color: #FFFFFF;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding: 0 30rpx;
+	border-radius: 10rpx;
+	margin-top: 40rpx;
+}
+.input_block {
+	/* width: 100%; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 30rpx 0;
+	border-bottom: 2rpx solid #F4F4F4;
+}
+.input_block:nth-last-of-type(1) {
+	border-bottom: none;
+}
+.inps_title {
+	color: #333333;
+	font-size: 26rpx;
+	width: 30%;
+}
+.placehss {
+	color: #939190;
+	font-size: 26rpx;
+}
+.inps {
+	color: #333333;
+	font-size: 26rpx;
+	width: 70%;
+}
+.upload_box {
+	background-color: #FFFFFF;
+	border-radius: 10rpx;
+	margin-top: 30rpx;
+	padding: 0 20rpx 40rpx;
+}
+.upload1 {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.up_title {
+	color: #333333;
+	font-size: 28rpx;
+	padding: 20rpx 0;
+}
+.idcard_img {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.idcard_frrev {
+	background-color: #F0F7FE;
+	width: 300rpx;
+	height: 176rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-radius: 10rpx;
+	position: relative;
+}
+.idcard {
+	color: #BAC1C8;
+	font-size: 24rpx;
+	/* width: 100%; */
+	/* height: 100%; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	/* text-align: center; */
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.idcard image {
+	width: 64rpx;
+	height: 56rpx;
+}
+.idcard222 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	/* text-align: center; */
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.idcard222 image {
+	width: 120rpx;
+	height: 122rpx;
+}
+.idcards image {
+	width: 300rpx;
+	height: 176rpx;
+}
+.idcards {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	/* text-align: center; */
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.close {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50rpx;
+	height: 50rpx;
+}
+.backBox {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+.xxxxx {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.ssssss {
+	margin-top: 30rpx;
+}
+.backBox image {
+	width: 253rpx;
+	height: 253rpx;
+}
+.picker_style {
+	/* color: #333333; */
+	color: #939190;
+
+	font-size: 26rpx;
+	width: 70%;
+}
+

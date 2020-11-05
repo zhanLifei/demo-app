@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['$emit',['btns']]]]]}}" class="bottom_btn " style="{{(bitstyle)}}" bindtap="__e"><text>{{title}}</text></view>

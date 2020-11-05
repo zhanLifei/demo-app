@@ -1,0 +1,190 @@
+.header {
+  background-color: #2389ff;
+}
+.left_ {
+  width: 36rpx;
+  height: 36rpx;
+}
+.center_title {
+  font-size: 36rpx;
+  color: #FFFFFF;
+  margin-right: 72rpx;
+  width: 80%;
+}
+page {
+  background-color: #EFF3F6;
+}
+.top {
+  padding: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+.top .topin {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+  padding-bottom: 40rpx;
+}
+.top .topin .can_bor_bot {
+  padding-bottom: 27rpx;
+  border-bottom: 2rpx solid #F4F4F4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.top .topin .can {
+  width: 100%;
+  padding: 40rpx 30rpx 0;
+  margin-bottom: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.top .topin .can .can_nums {
+  font-size: 28rpx;
+  color: #666666;
+}
+.top .topin .can .can_nums text {
+  color: #FA9C22;
+  font-weight: bold;
+}
+.top .topin .can .topall {
+  width: 136rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #FFFFFF;
+  background-color: #FA9C22;
+  border-radius: 20rpx;
+}
+.top .topin .top_bot {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 30rpx;
+}
+.top .topin .top_bot .inp_num {
+  font-size: 24rpx;
+  color: #999999;
+}
+.top .topin .top_bot .keyword {
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid #F4F4F4;
+  margin-top: 10rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.top .topin .top_bot .keyword .ex {
+  font-size: 34rpx;
+  color: #999;
+}
+.top .topin .top_bot .keyword input {
+  width: 70%;
+  font-size: 56rpx;
+  color: #333;
+}
+.top .topin .top_bot .keyword image {
+  width: 60rpx;
+  height: 60rpx;
+}
+.msg_box {
+  width: 100%;
+  padding: 0 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.msg_box .message {
+  width: 100%;
+  border-radius: 20rpx;
+  background-color: #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 40rpx 30rpx;
+}
+.msg_box .message .msg_title {
+  font-size: 28rpx;
+  color: #333333;
+}
+.msg_box .msg_item {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40rpx 0 20rpx;
+  border-bottom: 2rpx solid #F4F4F4;
+}
+.msg_box .msg_item text {
+  font-size: 26rpx;
+  color: #666666;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.msg_box .msg_item input {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  font-size: 26rpx;
+}
+.tips {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 34rpx 30rpx 80rpx;
+  font-size: 24rpx;
+  color: #999999;
+}
+.tips .tip2 {
+  margin: 24rpx 0;
+}
+.submit {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 100rpx;
+}
+.submit ._submit {
+  width: 100%;
+  height: 100rpx;
+  border-radius: 50rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 100rpx;
+  margin-bottom: 20rpx;
+}
+.submit .bg1 {
+  background-color: #B5D8FF;
+}
+.submit .bg2 {
+  background-color: #2189FF;
+}
+.ffff {
+  font-size: 28rpx;
+  color: #333333;
+}
+

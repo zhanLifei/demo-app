@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "城市大厅",
+  "titleNView": false,
+  "usingComponents": {
+    "headers": "/components/header_nav",
+    "hall-city": "/components/hallCity",
+    "btncoms": "/components/btncom"
+  }
+}

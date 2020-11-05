@@ -1,0 +1,141 @@
+
+.header {
+	background-color: #2575FE;
+}
+.left_ {
+	width: 36rpx;
+	height: 36rpx;
+}
+.center_title {
+	font-size: 36rpx;
+	color: #FFFFFF;
+	margin-right: 72rpx;
+	width: 80%;
+}
+.top_back {
+	position: fixed;
+	width: 100%;
+	height: 288rpx;
+	top: 0;
+	left: 0;
+	/* z-index: -1; */
+	/* background: url(../../static/img/myteamBack.png) no-repeat;
+	background-size: 100% 288upx;
+	background-position: left top; */
+}
+.navs{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #666666;
+	font-size: 32rpx;
+	background-color: #FFFFFF;
+	padding: 0 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.navs_it{
+	width: 33.3%;
+	text-align: center;
+	padding: 40rpx 0;
+	margin: 0 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.selavtive{
+	color:#2189FF;
+	border-bottom: 4rpx solid #2189FF;
+}
+.scroll_list{
+	width: 90%;
+	height: 86%;
+	/* padding: 0 20upx; */
+	margin: 20rpx auto 0;
+	background-color: transparent;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.scroll_it{
+	background-color: #FFFFFF;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding: 30rpx;
+	border-radius: 20rpx;
+	margin-bottom: 20rpx;
+}
+.scroll_title{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding-bottom: 20rpx;
+	border-bottom:2rpx solid #F4F4F4;
+}
+.scroll_title_name{
+	color: #333333;
+	font-size: 32rpx;
+	font-weight: bold;
+}
+.scroll_title_time{
+	 color: #666666;
+	 font-size: 28rpx;
+}
+.scroll_info{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding-top: 20rpx;
+}
+.scroll_info_left{
+	color: #666666;
+	font-size: 28rpx;
+	width: 60%;
+	line-height: 60rpx;
+}
+.scroll_info_right{
+	/* width: 40%; */
+	text-align: center;
+	line-height: 60rpx;
+}
+.info_right_num{
+	color: #FA9C22;
+	font-size: 58rpx;
+}
+.info_right_allnum{
+	color: #333333;
+	font-size: 28rpx;
+}
+.info_right_exchange{
+	color: #FFFFFF;
+	font-size: 34rpx;
+	background-color: #2189FF;
+	/* padding: 20upx;
+	border-radius: 20upx; */
+	padding: 10rpx;
+	    border-radius: 42rpx;
+		margin-top:20rpx;
+}
+

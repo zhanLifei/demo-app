@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "汽车资讯",
+  "usingComponents": {
+    "headers": "/components/header_nav",
+    "btncoms": "/components/btncom"
+  }
+}

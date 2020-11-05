@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "核销兑换券",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "headers": "/components/header_nav"
+  }
+}

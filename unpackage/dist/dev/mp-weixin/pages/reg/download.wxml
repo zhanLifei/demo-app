@@ -1,0 +1,1 @@
+<view><view data-event-opts="{{[['touchstart',[['hideDrawer',['$event']]]]]}}" class="content" bindtouchstart="__e"><web-view webview-styles="{{webviewStyles}}" src="{{url}}"></web-view></view></view>

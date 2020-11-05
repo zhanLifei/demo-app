@@ -1,0 +1,140 @@
+
+.header {
+	background-color: #2575FE;
+}
+.left_ {
+	width: 36rpx;
+	height: 36rpx;
+}
+.center_title {
+	font-size: 36rpx;
+	color: #FFFFFF;
+	margin-right: 72rpx;
+	width: 80%;
+}
+page {
+	background-color: #F2F2F2;
+	height: auto;
+}
+.navs {
+	background-color: #FFFFFF;
+	font-size: 32rpx;
+	color: #666666;
+	padding: 0rpx 30rpx;
+	/* position: fixed;
+	width: 100%;
+	top: 102upx;
+	left: 0; */
+}
+.it_active {
+	/* background-color: #2189FF; */
+	color: #2189FF;
+	border-bottom: 4rpx solid #2189FF !important;
+}
+.navs_item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.itemss {
+	padding: 40rpx 0;
+	border-bottom: 4rpx solid #FFFFFF;
+}
+.question {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background-color: #FFFFFF;
+	padding: 40rpx 30rpx;
+	margin-top: 20rpx;
+	font-size: 30rpx;
+	color: #333333;
+}
+.ques_icon {
+	width: 58rpx;
+	height: 58rpx;
+}
+.viedozooe_it {
+	background-color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 30rpx;
+	margin-top: 20rpx;
+}
+.viedozooe_video {
+	/* width: 321upx; */
+	height: 241rpx;
+	width: 100%;
+}
+.viedozooe_video video {
+	width: 100%;
+	height: 100%;
+}
+.viedozooe_video image{
+	width: 100%;
+	height: 100%;
+}
+.viedozooe_conts {
+	/* display: flex;
+	flex-direction: column;
+	justify-content:center ;
+	align-items: space-around; */
+	margin-left: 20rpx;
+	width: 60%;
+}
+.viedozooe_title {
+	font-size: 32rpx;
+	color: #333333;
+	font-weight: bold;
+	margin-top: 10rpx;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:1;
+}
+.viedozooe_text {
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	color: #666666;
+	font-size: 28rpx;
+	margin-top: 10rpx;
+}
+.viedozooe_time {
+	color: #999999;
+	font-size: 24rpx;
+	margin-top: 10rpx;
+}
+

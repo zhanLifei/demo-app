@@ -1,0 +1,119 @@
+
+.header{
+	background-color: #2575FE;
+}
+.left_{
+	width: 36rpx;
+	height: 36rpx;
+}
+.center_title{
+	font-size: 36rpx;
+	color: #FFFFFF;
+	margin-right: 72rpx;
+	width: 80%;
+}
+page{
+	background-color: #EFF3F6;
+}
+.content{
+	padding-right:24rpx;
+	padding-left: 24rpx;
+}
+.uploadimg{
+}
+.uploadimg_it{
+	background-color: #FFFFFF;
+	text-align: center; 
+	vertical-align: middle;
+	border-radius: 10rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	      -ms-flex-align: center;
+	          align-items: center;
+	  width: 100%;
+	    height: 421rpx;
+		margin-top: 20rpx;
+		color: #999999;
+		font-size: 30rpx;
+}
+.uploadimg_image{
+	width: 100%;
+	height: 54rpx;
+	/* text-align: center;
+	vertical-align: middle; */
+}
+.uploadimg_image image{
+	width: 54rpx;
+}
+.uploadimg_name{
+}
+.uploadimging{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.userphone{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	width: 100%;
+	background-color: #FFFFFF;
+	padding:30rpx 30rpx;
+	border-radius: 10rpx;
+	margin-top: 20rpx;
+	color: #999999;
+	font-size: 28rpx;
+}
+.btn{
+	color: #FFFFFF;
+	font-size: 36rpx;
+	text-align: center;
+	padding: 0 60rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin-top:80rpx;
+}
+.btn_submit{
+	background-color: #0089E2;
+	padding: 20rpx 0;
+	border-radius: 44rpx;
+}
+.btn_stepback{
+	background-color: #FA9C22;
+	padding: 20rpx 0;
+	margin-top: 40rpx;
+	border-radius: 44rpx;
+}
+.close{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 56rpx;
+	height: 56rpx;
+}
+

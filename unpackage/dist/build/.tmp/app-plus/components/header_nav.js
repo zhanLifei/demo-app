@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/header_nav"],{"0884":function(n,t,a){"use strict";var e=a("e690"),i=a.n(e);i.a},"1e0a":function(n,t,a){"use strict";a.r(t);var e=a("e5a6"),i=a.n(e);for(var r in e)"default"!==r&&function(n){a.d(t,n,function(){return e[n]})}(r);t["default"]=i.a},"22d7":function(n,t,a){"use strict";var e=function(){var n=this,t=n.$createElement;n._self._c},i=[];a.d(t,"a",function(){return e}),a.d(t,"b",function(){return i})},ddfc:function(n,t,a){"use strict";a.r(t);var e=a("22d7"),i=a("1e0a");for(var r in i)"default"!==r&&function(n){a.d(t,n,function(){return i[n]})}(r);a("0884");var u=a("2877"),c=Object(u["a"])(i["default"],e["a"],e["b"],!1,null,null,null);t["default"]=c.exports},e5a6:function(n,t,a){"use strict";(function(n){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var a={props:{Hlicon:{type:String},Htitle:{type:String},subtitle:{type:String},Hricon:{type:String},hstyle:{type:String},url_le:{String:String},url_ri:{String:String}},data:function(){return{}},methods:{jump:function(t){t?""==t?n.navigateBack({delta:1}):"/pages/main/tradingCenter"==t||"/pages/main/my"==t||"/pages/main/index"==t||"/pages/main/financial"==t||"carService"==t?n.switchTab({url:t}):n.navigateTo({url:t}):n.navigateBack({delta:1})},jum:function(t){t?""==t?n.navigateBack({delta:1}):"/pages/main/tradingCenter"==t||"/pages/main/my"==t||"/pages/main/index"==t||"/pages/main/financial"==t||"carService"==t?n.switchTab({url:t}):n.navigateTo({url:t}):n.navigateBack({delta:1})}}};t.default=a}).call(this,a("6e42")["default"])},e690:function(n,t,a){}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/header_nav-create-component',
+    {
+        'components/header_nav-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('6e42')['createComponent'](__webpack_require__("ddfc"))
+        })
+    },
+    [['components/header_nav-create-component']]
+]);                

@@ -1,0 +1,189 @@
+
+page{
+	background: #F4F4F4 !important;
+}
+.content{
+	width: 100%;
+	min-height: 440rpx;
+	background: url(../../static/img/bg_top.2827483e.png) no-repeat;
+	background-size: 100% 440rpx;
+	background-position: top;
+	background-color: #FFFFFF;
+	overflow: auto;
+	/* padding-top: 0; */
+}
+.bg{
+	width: 100%;
+}
+.bg image{
+	width: 100%;
+	height: 440rpx;
+}
+.user_data{
+	width: 100%;
+}
+.user{
+	width: 100%;
+	margin-top: 100rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	/* border-bottom: 20rpx solid #F4F4F4; */
+}
+.user_pic{
+	width: 140rpx;
+	height: 140rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 20rpx solid rgba(255,255,255,.1);
+}
+.user_pic image{
+	width: 100%;
+	height: 100%;
+}
+.user_name{
+	font-size: 32rpx;
+	color: #000000;
+	font-weight: bold;
+}
+.user_city{
+	font-size: 26rpx;
+	color: #666666;
+}
+.user_time{
+	font-size: 24rpx;
+	color: #666666;
+}
+.user view{
+	margin: 10rpx 0;
+}
+.dividend{
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding: 18rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.dividend_li{
+	width: calc(50% - 4rpx);
+	height: 150rpx;
+	color: #2189FF;
+	font-size: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.dividend_li:first-of-type{
+	border-right: 4rpx solid #F2F2F2;
+}
+.dividend_li text:first-of-type{
+	font-size: 40rpx;
+	font-weight: bold;
+	margin-bottom: 10rpx;
+}
+.balance{
+	width: 100%;
+	/* margin-top: 20rpx; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	border-top: 20rpx solid #F4F4F4;
+	background: #FFFFFF;
+}
+.balance_li{
+	width: calc(50% - 4rpx);
+	height: 180rpx;
+	color: #666666;
+	font-size: 26rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	border-bottom: 4rpx solid #F4F4F4;
+}
+.balance_li:nth-of-type(odd){
+	border-right: 4rpx solid #F4F4F4;
+}
+.balance_li text:first-of-type{
+	font-size: 36rpx;
+	color: #333333;
+	font-weight: bold;
+	margin-bottom: 10rpx;
+}
+

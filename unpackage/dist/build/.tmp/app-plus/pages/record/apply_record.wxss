@@ -1,0 +1,76 @@
+.header {
+  background-color: #2389ff;
+}
+.left_ {
+  width: 36rpx;
+  height: 36rpx;
+}
+.center_title {
+  font-size: 36rpx;
+  color: #FFFFFF;
+  margin-right: 72rpx;
+  width: 80%;
+}
+.content,
+page {
+  background-color: #FFFFFF;
+}
+.tabs {
+  width: 100%;
+  height: 100rpx;
+  background-color: #FFFFFF;
+  font-size: 30rpx;
+  color: #666666;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.tabs .tit {
+  height: 100rpx;
+  line-height: 100rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.tabs .active {
+  color: #2189FF;
+  border-bottom: 4rpx solid #2189FF;
+}
+.list {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 29rpx;
+}
+.list .data_list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30rpx 0;
+  border-bottom: 2rpx solid #F3F3F3;
+}
+.list .data_list .list_left .nums {
+  font-size: 28rpx;
+  color: #333333;
+  margin-bottom: 10rpx;
+}
+.list .data_list .list_left .day {
+  color: #B1B1B1;
+  font-size: 24rpx;
+}
+.list .data_list .list_right {
+  font-size: 26rpx;
+}
+

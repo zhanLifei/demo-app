@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "titleNView": false,
+  "usingComponents": {
+    "headers": "/components/header_top"
+  }
+}

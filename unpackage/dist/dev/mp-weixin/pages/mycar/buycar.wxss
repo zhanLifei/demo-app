@@ -1,0 +1,60 @@
+
+.content{
+	height: 100%;
+	width: 100%;
+}
+.address{
+	height: 100rpx;
+	line-height: 100rpx;
+	/* width: 100%; */
+	background: #ec8432;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.city{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #fff;
+	font-size: 32rpx;
+	margin-left: 40rpx;
+}
+.city image{
+	width:35rpx;
+	height:35rpx;
+	margin-left: 10rpx;
+}
+.search{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100rpx;
+	line-height: 100rpx;
+	margin-top: 25rpx;
+	/* align-items: center; */
+}
+.search-box,
+.personal {
+	width: 50rpx;
+	height: 50rpx;
+	margin-right:10rpx;
+}
+
+
+	

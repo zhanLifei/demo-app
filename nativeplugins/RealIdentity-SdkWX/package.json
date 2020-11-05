@@ -1,0 +1,62 @@
+{
+	"name": "实人认证插件",  
+	"id": "RealIdentity-SdkWX",  
+	"version": "1.0",  
+	"description": "实人认证插件",  
+	"_dp_type":"nativeplugin",  
+	"_dp_nativeplugin":{ 
+		"android": {
+			"plugins": [  
+				{
+					"type": "module",  
+					"name": "RealIdentity-SdkWX",  
+					"class": "com.yam.realidentity.RealIdentitySdkWXModule"  
+				}
+			],  
+			"hooksClass": "",  
+			"integrateType": "aar",  
+			"dependencies": [
+			],
+			"abis": [
+				"armeabi-v7a",
+				"arm64-v8a"
+			], 
+			"minSdkVersion": "19"
+		},
+		"ios": {
+			"plugins": [
+				{
+					"type": "module",
+					"name": "RealIdentity-SdkWX",
+					"class": "RealIdentitySdkWXModule"
+				}
+			],
+			"hooksClass": "",
+			"integrateType": "library",
+			"frameworks": [
+				"CoreMedia.framework",
+				"CoreTelephony.framework",
+				"libc++.tbd",
+				"libz.tbd",
+				"libresolv.tbd",
+				"SystemConfiguration.framework"
+			],
+			"embedFrameworks": [
+			],
+			"headers": [
+			], 
+			"resources": [
+				"RPSDK.bundle",
+				"yw_1222_0769.jpg"
+			], 
+			"privacies": [
+				"NSCameraUsageDescription"
+			],  
+			"validArchitectures": [
+				"armv7",
+				"arm64"
+			],
+			"deploymentTarget": "9.0"
+		}
+	}
+}

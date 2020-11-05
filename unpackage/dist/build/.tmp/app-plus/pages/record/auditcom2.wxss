@@ -1,0 +1,106 @@
+.tabs {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFF;
+}
+.tabs .tab {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  color: #333333;
+  font-size: 28rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.tabs .tab.act {
+  color: #2189FF;
+  border-bottom: 4rpx solid #2189FF;
+}
+.list {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.list .items {
+  margin-bottom: 30rpx;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 30rpx 12rpx 26rpx;
+}
+.list .items .item_title {
+  font-size: 26rpx;
+  color: #333333;
+  text-indent: 20rpx;
+}
+.list .items .img_box {
+  margin-top: 26rpx;
+  margin-bottom: 20rpx;
+  width: 100%;
+}
+.list .items .img_box image {
+  width: 227rpx;
+  height: 160rpx;
+}
+.list .items .img_box image:nth-child(2) {
+  margin: 0 25rpx;
+}
+.list .items .day {
+  width: 100%;
+  text-align: right;
+  font-size: 24rpx;
+  color: #999;
+}
+.pireNum {
+  background-color: #FFFFFF;
+  margin-top: 20rpx;
+  padding: 0rpx 20rpx;
+}
+.pireNum .pirBox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20rpx 0;
+  border-bottom: 2rpx solid #F4F4F4;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.pireNum .pirBox .pri1 text:nth-child(1) {
+  font-size: 26rpx;
+  color: #333333;
+  margin-right: 10rpx;
+}
+.pireNum .pirBox .pri1 text:nth-child(2) {
+  font-size: 30rpx;
+  color: #FA9C22;
+}
+.pireNum .pirBox .pri2 {
+  text-align: right;
+  color: #999999;
+  font-size: 20rpx;
+}
+.loadclass {
+  width: 100%;
+  text-align: center;
+  font-size: 24rpx;
+  padding: 10rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+

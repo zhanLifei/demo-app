@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "headers": "/components/header_nav",
+    "checkboxs": "/custom/checkboxs",
+    "radio-button": "/custom/radioButton",
+    "uploadd": "/custom/uploadd",
+    "single-line": "/custom/SingleLine"
+  }
+}

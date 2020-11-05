@@ -1,0 +1,130 @@
+
+.content {
+	padding-left: 24rpx;
+	padding-right: 24rpx;
+	background-color: transparent;
+}
+.header {
+	background: transparent;
+}
+.left_ {
+	width: 36rpx;
+	height: 36rpx;
+}
+.right_{
+	/* width: 120upx; */
+	    height: 36rpx;
+	    font-size: 26rpx;
+	    color: #ffffff;
+	    /* margin-riht: 20px; */
+	    margin-right: 12rpx;
+}
+.center_title {
+	font-size: 36rpx;
+	color: #FFFFFF;
+	/* margin-right: 72upx; */
+	width: 80%;
+	margin-left: 78rpx;
+}
+page {
+	/* background-color: #EFF3F6; */
+}
+.top_back {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background:  #1A81F1;
+	height: 243rpx;
+	width: 100%;
+	z-index: -1;
+}
+.top_back2{
+	position: fixed;
+	top: 243rpx;
+	left: 0;
+	background: #EFF3F6;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+.top_notice{
+	color:#FFFFFF;
+	font-size: 26rpx;
+	line-height: 42rpx;
+	padding-top: 30rpx;
+}
+.input_box{
+	width: 100%;
+	background-color: #FFFFFF;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding: 0 30rpx 200rpx;
+	border-radius: 10rpx;
+	margin-top: 40rpx;
+}
+.input_block{
+	/* width: 100%; */
+	/* display: flex; */
+	/* align-items: center; */
+	padding: 30rpx 0;
+	border-bottom: 2rpx solid #F3F3F3;
+}
+
+/* .input_block:nth-of-type(1){
+	border-bottom: 2upx solid #F4F4F4;
+} */
+.inps_title{
+	color: #333333;
+	 font-size: 26rpx;
+	 /* border-bottom: 2upx solid #F3F3F3; */
+	 padding: 30rpx 0;
+	 /* width: 20%; */
+}
+.placehss{
+	color: #939190;
+	font-size: 26rpx;
+}
+.inps{
+	color: #333333;
+	font-size: 26rpx;
+	/* width: 80%; */
+	margin-top: 10rpx;
+}
+.input_block2{
+	padding: 30rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	border-bottom: 2rpx solid #F3F3F3;
+}
+
+/* .input_block2:nth-last-of-type(1){
+	border-bottom: none;
+} */
+.inps_title2{
+	color: #333333;
+	 font-size: 26rpx;
+	 width: 30%;
+}
+.inps2{
+	color: #333333;
+	font-size: 26rpx;
+	width: 70%;
+}
+.inps_title3{
+	color: #333333;
+	 font-size: 26rpx;
+	 width: 30%;
+}
+.inps3{
+	color: #333333;
+	font-size: 26rpx;
+	width: 40%;
+}
+.getauthcode{
+	color: #FBB35A;
+	font-size: 28rpx;
+	width: 40%;
+}
+

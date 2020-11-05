@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "titleNView": false,
+  "usingComponents": {
+    "headers": "/components/header_nav",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "uni-icons": "/components/uni-icons"
+  }
+}

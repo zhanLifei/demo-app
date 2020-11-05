@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我要买车",
+  "usingComponents": {
+    "headers": "/components/header_nav"
+  }
+}

@@ -1,0 +1,935 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/null", //unll页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/login/login", //登录页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/reg/reg", //注册页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/reg/download", //下载页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/login/unbind", //解绑页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/login/forget", //忘记密码页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/main/index", //首页页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/main/carService", //车服务页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/main/tradingCenter", //交易中心页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/main/financial", //金融页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/main/my", //我的页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/notice", //公告页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/noticeDeail", //公告详情页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+		
+			}
+		},
+		{
+			"path": "pages/index/beguide", //新手指南页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/myteam", //我的团队页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/masters", //当家做主页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/selInsCom", //选择保险公司页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/uploaddata", //上传资料页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/selarchins", //选择险种页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/carservice", //车服务页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/storeinfo", //店铺信息页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/allevalu", //全部评价页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/allevaluArt", //文章全部评价页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+		
+			}
+		},
+		{
+			"path": "pages/index/issueeval", //发布评价页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/everyoneg", //人人公益页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/pir", //申请救济页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/article", //文章详情页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/selcity", //选择城市页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/provinceCity", //选择省市页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/nameauth", //实名认证页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/cardauth", //车主认证页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/conequity", //兑换股权页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/loansrecord", //融资贷款申请记录页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/applyun", //申请解冻页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/applyrecord", //解冻申请记录页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/index/level", //贡献值等级页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/record/levelDateile", //贡献值明细页面
+			"style": {
+				"navigationBarTitleText": "积分详细",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/webview", //签到跳转页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/record/integral", //积分详细页面
+			"style": {
+				"navigationBarTitleText": "积分详细",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/record/int_detail", //积分提现
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/record/hall",
+			"style": {
+				"navigationBarTitleText": "城市大厅",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/record/order",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/record/wd_record", // 提现记录
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/record/chebeidetail", // 车贝明细页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/record/malidefail", // 马力明细页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/record/honordefail", // 荣誉值明细页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/record/apply_record", // 申请记录---
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/record/canalrecord", // 核销记录页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/record/AdDetail", // 京东商城页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/record/auditcom2", // 救济金申请记录页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/center/buy", // 发布买单
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/center/onsale", // 正在出售
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/center/my_deal", // 我的交易
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/center/merchant", // 申请成为商家页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/center/voucher", // 车险凭证
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/center/invitefrient", // 邀请好友页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/center/appload", // 填写地址页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/center/apploans2", // 申请贷款2页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/center/getPOS", // 领用POS机页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/center/upload_voucher", // 上传凭证
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/center/question", // 问题反馈
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/center/credit_card", // 领用信用卡页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/service/feedback", // 反馈客服
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/main/scan", // 核销兑换券
+			"style": {
+				"navigationBarTitleText": "核销兑换券",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/service/star_level", // 星级达人规则
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/service/auditcom", // 佣金审核页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/service/appointment", // 预约列表页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/service/myappointment", // 我的预约页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/service/conversfun", // 兑换劵页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/service/myfun", // 我的劵页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/service/businesscenter", // 商家中心页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/service/putcode", // 收劵码页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/service/fam_quest", // 常见问题页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/set/security", // 安全设置
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/set/loginpsw", // 修改登录密码
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/set/dealpsw", // 修改交易密码
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/set/forgetpsw", // 忘记交易密码
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/set/personal", // 个人资料页面
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/service/post", // POS机首刷
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/service/up_post", // 上传POS机首刷凭证
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/service/credit_card", // 信用卡首刷
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/service/up_credit", // 上传信用卡首刷凭证
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/record/custom", // 自定义表单页面------
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/record/conDeial", // 兑换股权明细------
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/service/user_rule", // 使用规则
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/service/settlement", // 申请结算
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/realName/real_name", // 实名验证
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/realName/review", // 绑定账号
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/realName/authentication", // 实名认证
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/realName/usdtreal", // 邮箱认证
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/mycar/buycar",
+            "style" : {
+				"navigationBarTitleText": "我要买车",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+        }
+		,{
+		    "path" : "pages/mycar/car-details",
+		    "style" : {
+				"navigationBarTitleText": "汽车资讯",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+		    "path" : "pages/mycar/more",
+		    "style" : {
+				"navigationBarTitleText": "全部汽车资讯",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+		    "path" : "pages/mycar/allEvaluation",
+		    "style" : {
+				"navigationBarTitleText": "全部汽车评价",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#2692FE",
+		"borderStyle": "black",
+		"backgroundColor": "#FAFAFA",
+		"list": [{
+				"pagePath": "pages/main/index",
+				"iconPath": "static/tabBar/index.png",
+				"selectedIconPath": "static/tabBar/index_select.png",
+				"text": "首页"
+			},
+			// {
+			// 	"pagePath": "pages/main/carService",
+			// 	"iconPath": "static/tabBar/carService.png",
+			// 	"selectedIconPath": "static/tabBar/carService_select.png",
+			// 	"text": "我要修车"
+			// }, {
+			// 	"pagePath": "pages/main/financial",
+			// 	"iconPath": "static/tabBar/financial.png",
+			// 	"selectedIconPath": "static/tabBar/financial_select.png",
+			// 	"text": "金融"
+			// }
+			 {
+				"pagePath": "pages/main/tradingCenter",
+				"iconPath": "static/tabBar/tradingCenter.png",
+				"selectedIconPath": "static/tabBar/tradingCenter_select.png",
+				"text": "我要置换"
+			},
+			// {
+			// 	"pagePath": "pages/mycar/buycar",
+			// 	"iconPath": "static/tabBar/tradingCenter.png",
+			// 	"selectedIconPath": "static/tabBar/tradingCenter_select.png",
+			// 	"text": "我要买车"
+			// },
+			{
+				"pagePath": "pages/main/my",
+				"iconPath": "static/tabBar/myCenter.png",
+				"selectedIconPath": "static/tabBar/myCenter_select.png",
+				"text": "我的"
+			}
+		]
+	}
+}
