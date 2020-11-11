@@ -252,18 +252,18 @@ const api = {
 
 const auth = function(self, url, method, data, _success) {
 	var token = uni.getStorageSync('token');
-	// if (token == '') {
-	// 	uni.showToast({
-	// 		icon: 'none',
-	// 		title: '无效的登录,请重新登录',
-	// 		duration:2000
-	// 	});
-	// 	console.log(this)
-	// 	uni.setStorageSync('token', '');
-	// 	uni.reLaunch({
-	// 		url: '/pages/login/login',
-	// 	});
-	// }
+	if (token == '') {
+		uni.showToast({
+			icon: 'none',
+			title: '无效的登录,请重新登录',
+			duration:2000
+		});
+		console.log(this)
+		uni.setStorageSync('token', '');
+		uni.reLaunch({
+			url: '/pages/login/login',
+		});
+	}
 	var data = {
 		// token: uni.getStorageSync('token'),
 		...data
@@ -281,42 +281,42 @@ const auth = function(self, url, method, data, _success) {
 				_success(self, res);
 
 			} else {
-				// if (res.code == 400) {
-				// 	uni.showToast({
-				// 		icon: 'none',
-				// 		title: '无效的登录,请重新登录--',
-				// 		duration:2000
-				// 	});
-				// 	uni.setStorageSync('token', '');
-				// 	setTimeout(function() {
-				// 		uni.reLaunch({
-				// 			url: '/pages/login/login'
-				// 		});
-				// 	}, 2000);
-				// } else if (res.code == 0) {
-				// 	uni.showToast({
-				// 		icon: 'none',
-				// 		title: res.info,
-				// 		duration:2000
-				// 	});
-				// } else if (res.code == 401) {
-				// 	uni.showToast({
-				// 		icon: 'none',
-				// 		title: res.info,
-				// 		duration:2000
-				// 	});
-				// } else {
-				// 	uni.showToast({
-				// 		icon: 'none',
-				// 		title: '无效的登录,请重新登录'
-				// 	});
-				// 	uni.setStorageSync('token', '');
-				// 	setTimeout(function() {
-				// 		uni.reLaunch({
-				// 			url: '/pages/login/login'
-				// 		});
-				// 	}, 2000);
-				// }
+				if (res.code == 400) {
+					uni.showToast({
+						icon: 'none',
+						title: '无效的登录,请重新登录--',
+						duration:2000
+					});
+					uni.setStorageSync('token', '');
+					setTimeout(function() {
+						uni.reLaunch({
+							url: '/pages/login/login'
+						});
+					}, 2000);
+				} else if (res.code == 0) {
+					uni.showToast({
+						icon: 'none',
+						title: res.info,
+						duration:2000
+					});
+				} else if (res.code == 401) {
+					uni.showToast({
+						icon: 'none',
+						title: res.info,
+						duration:2000
+					});
+				} else {
+					uni.showToast({
+						icon: 'none',
+						title: '无效的登录,请重新登录'
+					});
+					uni.setStorageSync('token', '');
+					setTimeout(function() {
+						uni.reLaunch({
+							url: '/pages/login/login'
+						});
+					}, 2000);
+				}
 			}
 		},
 		fail: res => {
@@ -326,11 +326,11 @@ const auth = function(self, url, method, data, _success) {
 				title: '网站消息获取错误',
 				duration:2000
 			});
-			// setTimeout(function() {
-			// 	uni.reLaunch({
-			// 		url: '/pages/login/null'
-			// 	});
-			// }, 2000);
+			setTimeout(function() {
+				uni.reLaunch({
+					url: '/pages/login/null'
+				});
+			}, 2000);
 		},
 		complete: (data) => {
 			var data = data.data;
@@ -375,8 +375,6 @@ const loadthepage = async function(parmas) {
 			let page = parmas.that.page + 1;
 			if (parmas.that.page < parmas.that.pages) {
 				parmas.that.loadshow = true;
-				// parmas.that.list = 
-				// let list = result.data.data.data;
 				parmas.that.listsss = [...parmas.that.listsss, ...result.data.data.data]
 				console.log(parmas.that.listsss, 'parmas');
 				parmas.that.page = page;
