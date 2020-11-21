@@ -27,7 +27,7 @@
 				v-for="(item, index) in categoryList"
 				:key="index"
 				class="index-cate-item"
-				:class="tabCurrentIndex === index ? `text-${$mStore.getters.themeColor.name} active` : ''"
+				:class="tabCurrentIndex === index ? `text-{$mStore.getters.themeColor.name} active` : ''"
 				@tap.stop="tabClick(index, item.id)"
 			>
 				{{ item.title }}

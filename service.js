@@ -251,7 +251,7 @@ const api = {
 
 
 const auth = function(self, url, method, data, _success) {
-	var token = uni.getStorageSync('token');
+	var token = uni.getStorageSync('accessToken');
 	if (token == '') {
 		uni.showToast({
 			icon: 'none',
@@ -259,13 +259,13 @@ const auth = function(self, url, method, data, _success) {
 			duration:2000
 		});
 		console.log(this)
-		uni.setStorageSync('token', '');
+		uni.setStorageSync('accessToken', '');
 		uni.reLaunch({
 			url: '/pages/login/login',
 		});
 	}
 	var data = {
-		// token: uni.getStorageSync('token'),
+		// token: uni.getStorageSync('accessToken'),
 		...data
 	}
 	uni.request({
@@ -273,7 +273,7 @@ const auth = function(self, url, method, data, _success) {
 		method: method,
 		data: data,
 		header: {
-			Authorization: 'Bearer ' + uni.getStorageSync('token')
+			Authorization: 'Bearer ' + uni.getStorageSync('accessToken')
 		},
 		success: (res) => {
 			var res = res.data;
@@ -287,7 +287,7 @@ const auth = function(self, url, method, data, _success) {
 						title: '无效的登录,请重新登录--',
 						duration:2000
 					});
-					uni.setStorageSync('token', '');
+					uni.setStorageSync('accessToken', '');
 					setTimeout(function() {
 						uni.reLaunch({
 							url: '/pages/login/login'
@@ -310,7 +310,7 @@ const auth = function(self, url, method, data, _success) {
 						icon: 'none',
 						title: '无效的登录,请重新登录'
 					});
-					uni.setStorageSync('token', '');
+					uni.setStorageSync('accessToken', '');
 					setTimeout(function() {
 						uni.reLaunch({
 							url: '/pages/login/login'
@@ -356,7 +356,7 @@ const req = async function(parmas) {
 			url: parmas.url,
 			data: parmas.data,
 			header: {
-				Authorization: 'Bearer ' + uni.getStorageSync('token')
+				Authorization: 'Bearer ' + uni.getStorageSync('accessToken')
 			},
 			method: parmas.method,
 			success: (res) => resolve(res),
@@ -400,7 +400,7 @@ const downLoad = function(self, url, data, type, _success) {
 		method: type,
 		data: data,
 		header: {
-			Authorization: 'Bearer ' + uni.getStorageSync('token')
+			Authorization: 'Bearer ' + uni.getStorageSync('accessToken')
 		},
 		success: res => {
 			var res = res.data;

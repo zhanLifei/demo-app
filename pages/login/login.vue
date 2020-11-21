@@ -249,7 +249,7 @@
 				// 			var is_idverifly = res.data.data.is_idverifly
 				// 			uni.setStorageSync('type', type);
 				// 			var token = res.data.data.token
-				// 			uni.setStorageSync('token', token);
+				// 			uni.setStorageSync('accessToken', token);
 				// 			uni.setStorageSync('tan', 1);
 				// 			uni.removeStorageSync('proCityId');
 				// 			uni.removeStorageSync('upcardata');
@@ -314,7 +314,7 @@
 							var is_idverifly = res.data.data.is_idverifly
 							uni.setStorageSync('type', type);
 							var token = res.data.data.token
-							uni.setStorageSync('token', token);
+							uni.setStorageSync('accessToken', token);
 							uni.setStorageSync('tan', 1);
 							uni.removeStorageSync('proCityId');
 							uni.removeStorageSync('upcardata');
