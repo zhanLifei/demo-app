@@ -4,6 +4,9 @@ import service from './service.js';
 // 引入全局存储
 import store from '@/store';
 
+// 全局组件
+import rfEmpty from '@/components/rf-empty';
+
 // 引入全局配置
 import $mAssetsPath from '@/config/assets.config.js';
 import $mConfig from '@/config/index.config.js';
@@ -24,6 +27,7 @@ Vue.prototype.$mRoutesConfig = $mRoutesConfig;
 Vue.prototype.$mConstDataConfig = $mConstDataConfig;
 Vue.prototype.$mSettingConfig = $mSettingConfig;
 
+Vue.component('rfEmpty', rfEmpty);
 
 App.mpType = 'app'
 

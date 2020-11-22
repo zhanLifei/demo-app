@@ -13,6 +13,7 @@
 </script>
 
 <style lang="scss">
+	page{font-family: 'KaiTi';}
 	// 导入colorUI
 	@import '/static/css/colorui/main.css';
 	@import '/static/css/colorui/icon.css';

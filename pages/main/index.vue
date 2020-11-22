@@ -62,11 +62,11 @@
 			<!-- 爆款推荐 -->
 			<view class="hot-recommend">
 				<view class="left">
-					<image class="hot-recommend-image" :src="errorImage"></image>
+					<image class="hot-recommend-image" src="../../static/kj.png"></image>
 				</view>
 				<view class="right">
-					<image class="hot-recommend-image" :src="errorImage"></image>
-					<image class="hot-recommend-image" :src="errorImage"></image>
+					<image class="hot-recommend-image" src="../../static/tg.png"></image>
+					<image class="hot-recommend-image" src="../../static/zk.png"></image>
 				</view>
 			</view>
 			<!--新品上市-->
@@ -91,7 +91,7 @@
 		components:{rfSearchBar,rfSwipeDot,rfFloorIndex},
 		data() {
 			return {
-				current: 0, // 轮播图index
+				current: 0, // 轮播图index 
 				categoryList: [], // 分类列表
 				hotSearchDefault: '请输入关键字',
 				swipers: [{src: '../../static/index/banner.png'}],

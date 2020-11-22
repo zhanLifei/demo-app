@@ -6,9 +6,7 @@
 		>
 			<!-- 搜索框 -->
 			<view class="input-box" @tap="toSearch">
-				<input
-					disabled
-				/>
+				<input disabled />
 				<view class="wrapper">
 					<text class="iconfont iconsousuo2"></text>
 					<text class="keyword">{{ placeholder }}</text>
